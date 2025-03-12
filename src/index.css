@@ -1,29 +1,33 @@
-.container{
-  width: 50vw;
+.container {
+  width: 80vw;
+  max-width: 600px;
   text-align: center;
   margin: 40px auto;
   background-color: skyblue;
   border-radius: 10px;
   padding: 10px;
 }
-.container input{
-  width: 400px;
+
+.container input {
+  width: 80%;
+  max-width: 300px;
   padding: 14px;
   border-radius: 5px;
   border-style: groove;
   margin-top: 10px;
-  margin: auto;
 }
-.btn{
+
+.btn {
   padding: 11px 22px;
   margin-top: 15px;
   cursor: pointer;
-  background-color: #34C734;
+  background-color: #34c734;
   border: none;
   border-radius: 5px;
   color: #183950;
   font-size: 15px;
 }
-.info{
+
+.info {
   font-size: 20px;
 }
